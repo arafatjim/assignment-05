@@ -37,22 +37,9 @@ function cardClickBtn(target){
                     
           
          })
+         const modalBtn=document.getElementById('btnModal').
          
-         
-//          const firstTotal=(document.getElementById('subTotal').innerText=total);
-//          const grandTotal=firstTotal;
-//           const grandTotal(document.getElementById('grandTotal').innerText);
-//          document.getElementById('coupon').addEventListener('click',function(){
-//           const couponCode=document.getElementById('couponInput');
-          
-                    
-          //           //grandTotal=(document.getElementById('grandTotal').innerText=grandTotal);
-          //          discount=(document.getElementById('discountPrice').innerText=discount);
-          //          const grandDiscountTotal= total - discount;
-          //          grandDiscountTotal=(document.getElementById('grandTotal').innerText=grandDiscountTotal);
-                   
-          //          }
-         //}
+
          
          
          
