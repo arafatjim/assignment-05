@@ -1,13 +1,4 @@
-// document.getElementById('cards').addEventListener('click',function(event){
-//           const cardName=document.getElementById('card-name');
-//           const cardNameString=cardName.innerText;
-          
-//           const li=document.createElement("li");
-//           li.innerText=cardNameString;
-//           console.log(li);
-          
-          
-// })
+
 let total=0;
 let coupon= "SELL200";
 function cardClickBtn(target){
@@ -36,8 +27,8 @@ function cardClickBtn(target){
 
                     
           
-         })
-         const modalBtn=document.getElementById('btnModal').
+         });
+         const modalBtn=document.getElementById('btnModal');
          
 
          
