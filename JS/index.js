@@ -1,7 +1,12 @@
 
 let total=0;
-let coupon= "SELL200";
+const coupon= "SELL200";
+const couponBtn=document.getElementById('coupon');
+
+          
+
 function cardClickBtn(target){
+          
           const selectedItemContainer=document.getElementById('selected-items');
           const itemName=target.childNodes[3].innerText;
           const li=document.createElement("li");
@@ -13,21 +18,35 @@ function cardClickBtn(target){
          const firstTotal=(document.getElementById('subTotal').innerText=total);
          finalTotal=(document.getElementById('grandTotal').innerText=firstTotal);
          const couponCode=(document.getElementById('couponInput').value);
-
+         
+          if(total >= 200){
+          couponBtn.disabled=false;
+          
+          }
+          else{
+                    couponBtn.disabled=true;
+          }
          document.getElementById('coupon').addEventListener('click',function(){
           const couponCode=document.getElementById('couponInput').value;
+
+          
+        
           
           if( couponCode == "SELL200" && firstTotal >= 200){
+                    //couponBtn.disabled=false;
+                    
+                    
                     const discount= firstTotal * 0.2;
                     const newTotal=firstTotal - discount;
                     const discountPrice=(document.getElementById('discountPrice').innerText=discount);
                     console.log(discountPrice);
                     const finalTotal=(document.getElementById('grandTotal').innerText=newTotal);
           }
-
+          
                     
           
          });
+         
          const modalBtn=document.getElementById('btnModal');
          
 
