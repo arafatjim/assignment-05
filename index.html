@@ -28,7 +28,7 @@
           </header>
           <main class="bg-[#1111110D] ">
             <h1 class="text-4xl font-semibold pt-6 pb-10 pl-10">Kitchenware</h1>
-            <section class="grid grid-cols-1 px-10 gap-10 order-2 lg:grid-cols-4 ">
+            <section class="grid grid-cols-1 px-10 gap-10 py-6 order-2 lg:grid-cols-4 ">
               <!-- //card01 -->
                 
                   <div id="cards" onclick="cardClickBtn(this)" class="card bg-base-100 shadow-xl lg:w-72">
@@ -105,7 +105,7 @@
               </div>
               
   <!-- Purchase field -->
-              <div class="bg-white relative grid grid-cols-1 px-6 max-h-full rounded-lg order-7 lg:order-none">
+              <div class="bg-white relative grid grid-cols-1 px-6 pb-10 max-h-full rounded-lg order-7 lg:order-none">
                 <div>
                   
                   <div>
@@ -130,14 +130,14 @@
                 <div>
                   <!-- <button class="btn btn-wide bg-pink-500 text-white hover:bg-blue-500">Make Purchase</button> -->
                 <!-- Open the modal using ID.showModal() method -->
-              <button id="btnParchese" class=" btn btn-wide bg-pink-500 text-white order-4 lg:order-none hover:bg-blue-500" onclick="my_modal_5.showModal()">Make Purchase</button>
-        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+              <button id="btnParchese" class=" btn btn-wide bg-pink-500 text-white order-4 lg:order-none w-72 mx-auto hover:bg-blue-500" onclick="my_modal_5.showModal()">Make Purchase</button>
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle pb-20">
   <form method="dialog" class="modal-box">
     <img class="px-40" src="./images/congo.png" alt="">
     <p class="text-center text-4xl font-bold ">Congratulations</p>
     <div class="modal-action w-9/12">
       <!-- if there is a button in form, it will close the modal -->
-      <button id="btnModal"  class="btn text-white font-semibold px-10 mr-8 bg-pink-500 lg:mr-10"><a href="index.html" class="">Go Home</a></button>
+      <button id="btnModal"  class="btn text-white font-semibold px-6 mr-8 bg-pink-500 lg:mr-10"><a href="index.html" class="">Go Home</a></button>
     </div>
   </form>
 </dialog>
